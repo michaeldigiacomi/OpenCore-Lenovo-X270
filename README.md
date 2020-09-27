@@ -1,9 +1,7 @@
 # Lenovo-X270-Hackintosh-Catalina-OpenCore
 This repo contains the files and scripts to install macOS on the Lenovo T460 family
 
-sysInfo | neoFetch
-:---:|:----:
-![T460](Images/SysInfo.png) | ![T460](Images/NeoFetch.png)
+![X270](Images/screen.png)
 
 # Update History
 - [x] macOS 10.15.7
