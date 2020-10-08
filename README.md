@@ -1,5 +1,5 @@
-# Lenovo-X270-Hackintosh-Catalina-OpenCore
-This repo contains the files and scripts to install macOS on the Lenovo T460 family
+# Lenovo-X270-Hackintosh-Catalina-OpenCore-0.6.2
+This repo contains the files and scripts to install macOS on the Lenovo X270 family
 
 ![X270](Images/screen.png)
 
@@ -20,7 +20,7 @@ This repo contains the files and scripts to install macOS on the Lenovo T460 fam
 - <b>GPU</b>: Intel HD Graphics 520
 - <b>RAM</b>: 16 GB 2400MHz DDR4
 - <b>Screen</b>: 14" FHD (1920x1080) IPS
-- <b>Wi-Fi</b>: Intel 7265 w/ Bluetooth
+- <b>Wi-Fi</b>: DW-1820a
 - <b>Camera</b>: 720p
 - <b>Battery</b>: 6-cell 
 
