@@ -1,4 +1,4 @@
-# Lenovo-X270-Hackintosh-Catalina-OpenCore-0.6.2
+# Lenovo-X270-Hackintosh-Catalina-OpenCore-0.6.3
 This repo contains the files and scripts to install macOS on the Lenovo X270 family
 
 ![X270](Images/screen.png)
