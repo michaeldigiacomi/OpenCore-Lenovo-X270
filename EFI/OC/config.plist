@@ -602,7 +602,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
@@ -634,7 +634,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>		
 			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
@@ -768,7 +768,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
@@ -800,7 +800,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
@@ -816,7 +816,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
@@ -832,7 +832,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
@@ -864,7 +864,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
@@ -880,7 +880,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 			<dict>
 				<key>BundlePath</key>
 				<string>BrcmFirmwareData.kext</string>
@@ -912,7 +912,7 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-			</dict>
+			</dict>	
 		</array>
 		<key>Block</key>
 		<array>
@@ -1087,7 +1087,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>x86_64</string>			
 				<key>Base</key>
 				<string>_kernel_debug_string_early</string>
 				<key>Comment</key>
@@ -1144,7 +1144,7 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-			</dict>
+			</dict>			
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1417,7 +1417,7 @@
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
-			<data>ESIzAAAA</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
