@@ -1,17 +1,10 @@
-# Lenovo-X270-Hackintosh-Catalina-OpenCore-0.6.3
+# Lenovo-X270-Hackintosh-BigSur-OpenCore-0.6.3
 This repo contains the files and scripts to install macOS on the Lenovo X270 family
 
 ![X270](Images/screen.png)
 
 # Update History
-- [x] macOS 10.15.7
-- [x] macOS 10.15.6 Supplemental Update
-- [x] macOS 10.15.6
-- [x] macOS 10.15.5 Supplemental Update
-- [x] macOS 10.15.5
-- [x] macOS 10.15.4 Supplemental Update
-- [x] macOS 10.15.4
-- [x] macOS 10.15.3
+- [x] macOS 11.0.1
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
@@ -48,9 +41,8 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - [x] HDMI port (including HDMI Audio)
 - [x] Intel Ethernet port
 - [x] Realtek Audio (including headphones jack)
-- [x] Wi-Fi & Bluetooth (including Apple services)
 - [x] Internal camera (including Facetime)
-- [x] Trackpad, Trackpoint and physical buttons (including gestures)
+- [x] Trackpad (gestures work but not the trackpad click. tap to click works.)
 - [x] Shutdown / Reboot 
 - [x] Keyboard (incuding all fn Keys)
 - [x] iMessage, FaceTime, App Store, iTunes Store (with valid smbios)
@@ -59,3 +51,5 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 
 # What's not working ⚠️
 - [x] Sleep / Wake (lid sleep and lid wake)
+- [x] Wi-Fi & Bluetooth (including Apple services)
+- [x] Trackpoint and physical buttons
