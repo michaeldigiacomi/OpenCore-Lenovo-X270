@@ -4,7 +4,8 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 ![X270](Images/screen.png)
 
 # Update History
-- [x] macOS 11.0.1
+- [x] macOS 11.0.1 Beta 3
+- [x] macOS 11.0.1 RC 2
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
