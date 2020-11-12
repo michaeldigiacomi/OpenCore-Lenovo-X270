@@ -46,11 +46,11 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - [x] Trackpad (gestures work but not the trackpad click. tap to click works.)
 - [x] Shutdown / Reboot 
 - [x] Keyboard (incuding all fn Keys)
+- [x] Wi-Fi & Bluetooth (including Apple services)
 - [x] iMessage, FaceTime, App Store, iTunes Store (with valid smbios)
 - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
 - [x] SD Card Reader (v2.2 works but still a bit unstable)
 
 # What's not working ⚠️
 - [x] Sleep / Wake (lid sleep and lid wake)
-- [x] Wi-Fi & Bluetooth (including Apple services)
 - [x] Trackpoint and physical buttons
