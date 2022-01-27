@@ -4,17 +4,15 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 ![X270](Images/screen.png)
 
 # Update History
-- [x] macOS 11.0.1 Beta 3
-- [x] macOS 11.0.1 RC 2
+- [x] macOS 12
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
-- <b>Bios</b>: 1.43
-- <b>CPU</b>: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+- <b>CPU</b>: Intel(R) Core(TM) i5-6300U CPU @ 2.50GHz
 - <b>GPU</b>: Intel HD Graphics 520
-- <b>RAM</b>: 16 GB 2400MHz DDR4
-- <b>Screen</b>: 14" FHD (1920x1080) IPS
-- <b>Wi-Fi</b>: DW-1820a
+- <b>RAM</b>: 8 GB 24133MHz DDR4
+- <b>Screen</b>: 12,4" (1366x768)
+- <b>Wi-Fi</b>: AC-8260
 - <b>Camera</b>: 720p
 - <b>Battery</b>: 6-cell 
 
@@ -53,4 +51,3 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 
 # What's not working ⚠️
 - [x] Sleep / Wake (lid sleep and lid wake)
-- [x] Trackpoint and physical buttons
