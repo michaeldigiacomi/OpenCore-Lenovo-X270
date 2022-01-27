@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19B88</string>
+	<string>19H1417</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Trackpad</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.0.4, Copyright Apple Computer, Inc. 2002-2003, mackerintel 2008, RehabMan 2012-2013</string>
+	<string>2.2.7, Copyright Apple Computer, Inc. 2002-2003, mackerintel 2008, RehabMan 2012-2013</string>
 	<key>CFBundleIdentifier</key>
 	<string>as.acidanthera.voodoo.driver.PS2Trackpad</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.4</string>
+	<string>2.2.7</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,21 +25,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.0.4</string>
+	<string>2.2.7</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11A1027</string>
+	<string>12B45b</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.0</string>
 	<key>DTSDKBuild</key>
-	<string>19A547</string>
+	<string>20A2408</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.0</string>
 	<key>DTXcode</key>
-	<string>1110</string>
+	<string>1220</string>
 	<key>DTXcodeBuild</key>
-	<string>11A1027</string>
+	<string>12B45b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALPS GlidePoint</key>
@@ -104,6 +106,80 @@
 					<string>ProBook</string>
 				</dict>
 			</dict>
+		</dict>
+		<key>Elantech TouchPad</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.voodoo.driver.PS2Trackpad</string>
+			<key>IOClass</key>
+			<string>ApplePS2Elan</string>
+			<key>IOProbeScore</key>
+			<integer>7000</integer>
+			<key>IOProviderClass</key>
+			<string>ApplePS2MouseDevice</string>
+			<key>Platform Profile</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>ButtonCount</key>
+					<integer>3</integer>
+					<key>Darwin 16+</key>
+					<dict>
+						<key>ApplePreferenceCapability</key>
+						<true/>
+						<key>ApplePreferenceIdentifier</key>
+						<string>com.apple.AppleMultitouchTrackpad</string>
+						<key>MT Built-in</key>
+						<true/>
+						<key>MTHIDDevice</key>
+						<true/>
+						<key>SupportsGestureScrolling</key>
+						<true/>
+						<key>TrackpadEmbedded</key>
+						<true/>
+						<key>TrackpadFourFingerGestures</key>
+						<true/>
+						<key>TrackpadSecondaryClickCorners</key>
+						<true/>
+						<key>TrackpadThreeFingerDrag</key>
+						<false/>
+					</dict>
+					<key>DisableDevice</key>
+					<false/>
+					<key>ForceTouchMode</key>
+					<integer>1</integer>
+					<key>MouseResolution</key>
+					<integer>3</integer>
+					<key>MouseSampleRate</key>
+					<integer>200</integer>
+					<key>ProcessBluetoothMouseStopsTrackpad</key>
+					<true/>
+					<key>ProcessUSBMouseStopsTrackpad</key>
+					<true/>
+					<key>QuietTimeAfterTyping</key>
+					<integer>500000000</integer>
+					<key>ScrollResolution</key>
+					<integer>400</integer>
+					<key>SetHwResolution</key>
+					<true/>
+					<key>TrackpointDividerX</key>
+					<integer>120</integer>
+					<key>TrackpointDividerY</key>
+					<integer>120</integer>
+					<key>TrackpointMultiplierX</key>
+					<integer>120</integer>
+					<key>TrackpointMultiplierY</key>
+					<integer>120</integer>
+					<key>USBMouseStopsTrackpad</key>
+					<integer>0</integer>
+					<key>UseHighRate</key>
+					<true/>
+					<key>WakeDelay</key>
+					<integer>1000</integer>
+				</dict>
+			</dict>
+			<key>RM,deliverNotifications</key>
+			<true/>
 		</dict>
 		<key>Native Multitouch Engine</key>
 		<dict>
@@ -184,11 +260,59 @@
 			<key>CFBundleIdentifier</key>
 			<string>as.acidanthera.voodoo.driver.PS2Trackpad</string>
 			<key>HIDPointerAccelerationTable</key>
-			<data>AACAAFVTQioABwAAAAAAAgAEAAAABAAAABAAAAAQAAAAACAAAA0AAIAAAACAAAABQAAAAYAAAAIAAAAC4AAAAwAAAATgAAAEAAAAB0AAAAUAAAAKAAAABgAAAA1AAAAIAAAAFgAAAArAAAAjAAAADQAAAC8AAAAOwAAAOMAAABBAAABBAAAAEcAAAEjAAAAAUAAADwAAgAAAAIAAAAEAAAABQAAAAYAAAAJAAAACAAAAA4AAAAKAAAAE4AAAAwAAAAZgAAAEAAAACgAAAAUAAAAOQAAABgAAABNAAAAIAAAAHsAAAArAAAAuwAAADQAAADyAAAAOwAAARwAAABBAAABPwAAAEcAAAFiAAAAAgAAADwAAgAAAAIAAAAEAAAABYAAAAYAAAAKgAAACAAAABEAAAAKAAAAGAAAAAwAAAAgAAAAEAAAADQAAAAUAAAASwAAABgAAABkAAAAIAAAAKAAAAArAAAA7wAAADQAAAEuAAAAOwAAAV0AAABBAAABgQAAAEcAAAGkAAAAAsAAADwAAgAAAAIAAAAEAAAABoAAAAYAAAAMAAAACAAAABQAAAAKAAAAHQAAAAwAAAAnAAAAEAAAAEEAAAAUAAAAXgAAABgAAAB/AAAAIAAAAMgAAAArAAABKAAAADQAAAFyAAAAOwAAAaQAAABBAAABywAAAEcAAAHrAAAAA4AAADwAAgAAAAKAAAAEAAAABwAAAAYAAAANgAAACAAAABeAAAAKAAAAIoAAAAwAAAAvAAAAEAAAAE8AAAAUAAAAdQAAABgAAACfAAAAIAAAAPcAAAArAAABZAAAADQAAAG3AAAAOwAAAe0AAABBAAACFQAAAEcAAAIxAAAABAAAADwAAgAAAAMAAAAEAAAACAAAAAYAAAAPgAAACAAAABsAAAAKAAAAKQAAAAwAAAA5gAAAEAAAAGMAAAAUAAAAkwAAABgAAADLAAAAIAAAATUAAAArAAABugAAADQAAAIMAAAAOwAAAj0AAABBAAACXAAAAEcAAAJxAAA==</data>
+			<data>
+			AACAAFVTQioABwAAAAAAAgAEAAAABAAAABAAAAAQAAAAACAAAA0A
+			AIAAAACAAAABQAAAAYAAAAIAAAAC4AAAAwAAAATgAAAEAAAAB0AA
+			AAUAAAAKAAAABgAAAA1AAAAIAAAAFgAAAArAAAAjAAAADQAAAC8A
+			AAAOwAAAOMAAABBAAABBAAAAEcAAAEjAAAAAUAAADwAAgAAAAIAA
+			AAEAAAABQAAAAYAAAAJAAAACAAAAA4AAAAKAAAAE4AAAAwAAAAZg
+			AAAEAAAACgAAAAUAAAAOQAAABgAAABNAAAAIAAAAHsAAAArAAAAu
+			wAAADQAAADyAAAAOwAAARwAAABBAAABPwAAAEcAAAFiAAAAAgAAA
+			DwAAgAAAAIAAAAEAAAABYAAAAYAAAAKgAAACAAAABEAAAAKAAAAG
+			AAAAAwAAAAgAAAAEAAAADQAAAAUAAAASwAAABgAAABkAAAAIAAAA
+			KAAAAArAAAA7wAAADQAAAEuAAAAOwAAAV0AAABBAAABgQAAAEcAA
+			AGkAAAAAsAAADwAAgAAAAIAAAAEAAAABoAAAAYAAAAMAAAACAAAA
+			BQAAAAKAAAAHQAAAAwAAAAnAAAAEAAAAEEAAAAUAAAAXgAAABgAA
+			AB/AAAAIAAAAMgAAAArAAABKAAAADQAAAFyAAAAOwAAAaQAAABBA
+			AABywAAAEcAAAHrAAAAA4AAADwAAgAAAAKAAAAEAAAABwAAAAYAA
+			AANgAAACAAAABeAAAAKAAAAIoAAAAwAAAAvAAAAEAAAAE8AAAAUA
+			AAAdQAAABgAAACfAAAAIAAAAPcAAAArAAABZAAAADQAAAG3AAAAO
+			wAAAe0AAABBAAACFQAAAEcAAAIxAAAABAAAADwAAgAAAAMAAAAEA
+			AAACAAAAAYAAAAPgAAACAAAABsAAAAKAAAAKQAAAAwAAAA5gAAAE
+			AAAAGMAAAAUAAAAkwAAABgAAADLAAAAIAAAATUAAAArAAABugAAA
+			DQAAAIMAAAAOwAAAj0AAABBAAACXAAAAEcAAAJxAAA==
+			</data>
 			<key>HIDPointerAccelerationType</key>
 			<string>HIDTrackpadAcceleration</string>
 			<key>HIDScrollAccelerationTable</key>
-			<data>AACAAFVTQioABwAAAAAAAQABAAAAAQAAAAAgAAAQAABxOwAATOMAAwAAAAdgAAAEwAAADoAAAAbxSgAX6V4ACVeCACMQWgALZ6EALBF7AA2N1AA03ToAD36aADvQuAASWKAARl01ABUAAABO2dgAF8AAAFXK7QAas+UAW2FQAB2QAABe0qoAIL75AGEgywAkLXsAYnXvACewAABjRl8AAIAAABMAAHE7AABWfwABAAAAAuAAAAIAAAAJYAAAAwAAABIAAAAEwAAAIMAAAAaAAAAwgAAACGp5AEH9tgAK7bUAV4ZuAA0B2ABrPTkADv1/AIEEcAAQy5gAkdRWABJouQCe3VAAE+c/AKikCgAXAucAtn2SABot3ADARE4AHVjQAMX4OgAg35IAytuYACQ4bgDO7mUAJ6CXANIwowAAsAAAFAAAcTsAAGFOAADAAAABwAAAAQAAAANgAAACAAAADCAAAAMAAAAW4AAABMAAACnAAAAGQAAAOsAAAAfOggBP7OcACgWAAGo8rgAL658AhMCkAA2RCwCfR+EADzjIALWDbwAQ/k8AxqbEABLNUQDUeCMAFepmAOTKxwAZoVYA8qFmAB1CvwD7fXwAIQuCAQFpdAAkS20BBVKIACegAAEIK4wAAOAAABQAAHE7AABtdwAAwAAAAeAAAAEAAAAD4AAAAgAAAA6AAAADAAAAHEAAAATAAAA0AAAABgAAAEdAAAAHN4wAXL7hAAkAAACAwAAACoAAAKGAAAALz7IAvU7UAA01yQDadikADvtPAPKF4gARLu4BCSWiABUlDwEfV8QAGT9oASzRKgAdChkBNQrGACDz5QE6cR4AJEARAT3XdgAnn1YBQMHWAABQAAATAABxOwAAS7AAAQAAAAJgAAACAAAABuAAAAMAAAAMYAAABMAAABcAAAAGwAAAJAAAAAkAAAAyAAAACz1uAEFngAANcE8AUMGhAA+sTQBgSTMAEagdAG5NTAATT9YAd9WQABTQfgB+26MAF3odAIbYXQAagocAjp+lAB2J6QCTvnkAIN/yAJdcWwAkO0IAmYu9ACegOACacdcAAQAAABUAAHE7AABWfwAAwAAAAiAAAAEAAAAEgAAAAYAAAAqAAAACAAAAEaAAAAMAAAAhgAAABMAAAD6AAAAFwAAAVEAAAAbAAABrAAAACAAAAIxAAAAJAAAAqYAAAApAAADKwAAAC8AAAPTAAAANwAABJAAAABAAAAFEn9IAFEAAAV49zAAZAAABbrsYABzQAAFz78AAIOAAAXhvwAAkIAABem/AACegAAF8JGg=</data>
+			<data>
+			AACAAFVTQioABwAAAAAAAQABAAAAAQAAAAAgAAAQAABxOwAATOMA
+			AwAAAAdgAAAEwAAADoAAAAbxSgAX6V4ACVeCACMQWgALZ6EALBF7
+			AA2N1AA03ToAD36aADvQuAASWKAARl01ABUAAABO2dgAF8AAAFXK
+			7QAas+UAW2FQAB2QAABe0qoAIL75AGEgywAkLXsAYnXvACewAABj
+			Rl8AAIAAABMAAHE7AABWfwABAAAAAuAAAAIAAAAJYAAAAwAAABIA
+			AAAEwAAAIMAAAAaAAAAwgAAACGp5AEH9tgAK7bUAV4ZuAA0B2ABr
+			PTkADv1/AIEEcAAQy5gAkdRWABJouQCe3VAAE+c/AKikCgAXAucA
+			tn2SABot3ADARE4AHVjQAMX4OgAg35IAytuYACQ4bgDO7mUAJ6CX
+			ANIwowAAsAAAFAAAcTsAAGFOAADAAAABwAAAAQAAAANgAAACAAAA
+			DCAAAAMAAAAW4AAABMAAACnAAAAGQAAAOsAAAAfOggBP7OcACgWA
+			AGo8rgAL658AhMCkAA2RCwCfR+EADzjIALWDbwAQ/k8AxqbEABLN
+			UQDUeCMAFepmAOTKxwAZoVYA8qFmAB1CvwD7fXwAIQuCAQFpdAAk
+			S20BBVKIACegAAEIK4wAAOAAABQAAHE7AABtdwAAwAAAAeAAAAEA
+			AAAD4AAAAgAAAA6AAAADAAAAHEAAAATAAAA0AAAABgAAAEdAAAAH
+			N4wAXL7hAAkAAACAwAAACoAAAKGAAAALz7IAvU7UAA01yQDadikA
+			DvtPAPKF4gARLu4BCSWiABUlDwEfV8QAGT9oASzRKgAdChkBNQrG
+			ACDz5QE6cR4AJEARAT3XdgAnn1YBQMHWAABQAAATAABxOwAAS7AA
+			AQAAAAJgAAACAAAABuAAAAMAAAAMYAAABMAAABcAAAAGwAAAJAAA
+			AAkAAAAyAAAACz1uAEFngAANcE8AUMGhAA+sTQBgSTMAEagdAG5N
+			TAATT9YAd9WQABTQfgB+26MAF3odAIbYXQAagocAjp+lAB2J6QCT
+			vnkAIN/yAJdcWwAkO0IAmYu9ACegOACacdcAAQAAABUAAHE7AABW
+			fwAAwAAAAiAAAAEAAAAEgAAAAYAAAAqAAAACAAAAEaAAAAMAAAAh
+			gAAABMAAAD6AAAAFwAAAVEAAAAbAAABrAAAACAAAAIxAAAAJAAAA
+			qYAAAApAAADKwAAAC8AAAPTAAAANwAABJAAAABAAAAFEn9IAFEAA
+			AV49zAAZAAABbrsYABzQAAFz78AAIOAAAXhvwAAkIAABem/AACeg
+			AAF8JGg=
+			</data>
 			<key>HIDScrollAccelerationType</key>
 			<string>HIDTrackpadScrollAcceleration</string>
 			<key>IOClass</key>
@@ -203,10 +327,6 @@
 				<dict>
 					<key>ButtonCount</key>
 					<integer>3</integer>
-					<key>ClickPadClickTime</key>
-					<integer>300000000</integer>
-					<key>ClickPadTrackBoth</key>
-					<true/>
 					<key>Darwin 16+</key>
 					<dict>
 						<key>ApplePreferenceCapability</key>
@@ -222,7 +342,7 @@
 						<key>TrackpadEmbedded</key>
 						<true/>
 						<key>TrackpadFourFingerGestures</key>
-						<false/>
+						<true/>
 						<key>TrackpadSecondaryClickCorners</key>
 						<true/>
 						<key>TrackpadThreeFingerDrag</key>
@@ -232,12 +352,14 @@
 					<false/>
 					<key>DisableLEDUpdating</key>
 					<false/>
-					<key>DynamicEWMode</key>
-					<false/>
 					<key>FakeMiddleButton</key>
 					<true/>
-					<key>FingerChangeIgnoreDeltas</key>
-					<integer>3</integer>
+					<key>ForceTouchCustomDownThreshold</key>
+					<integer>90</integer>
+					<key>ForceTouchCustomPower</key>
+					<integer>8</integer>
+					<key>ForceTouchCustomUpThreshold</key>
+					<integer>20</integer>
 					<key>ForceTouchMode</key>
 					<integer>1</integer>
 					<key>ForceTouchPressureThreshold</key>
@@ -302,7 +424,7 @@
 					<key>ProBook</key>
 					<dict>
 						<key>FingerZ</key>
-						<integer>0</integer>
+						<integer>40</integer>
 					</dict>
 					<key>ProBook-102</key>
 					<string>ProBook</string>
@@ -317,22 +439,14 @@
 					<string>Thinkpad_ClickPad</string>
 					<key>T560</key>
 					<string>Thinkpad_ClickPad</string>
-					<key>X270</key>
-					<string>Thinkpad_ClickPad</string>
 					<key>Thinkpad_ClickPad</key>
 					<dict>
-						<key>DynamicEWMode</key>
-						<false/>
-						<key>EdgeBottom</key>
-						<integer>0</integer>
 						<key>FakeMiddleButton</key>
 						<false/>
 						<key>FingerZ</key>
-						<integer>0</integer>
+						<integer>30</integer>
 						<key>HWResetOnStart</key>
 						<true/>
-						<key>MaxTapTime</key>
-						<integer>100000000</integer>
 						<key>MouseMultiplierX</key>
 						<integer>2</integer>
 						<key>MouseMultiplierY</key>
@@ -341,8 +455,6 @@
 						<integer>2</integer>
 						<key>MouseScrollMultiplierY</key>
 						<integer>2</integer>
-						<key>PalmNoAction When Typing</key>
-						<true/>
 						<key>ScrollResolution</key>
 						<integer>800</integer>
 						<key>Thinkpad</key>
@@ -350,27 +462,17 @@
 					</dict>
 					<key>Thinkpad_TrackPad</key>
 					<dict>
-						<key>DynamicEWMode</key>
-						<false/>
 						<key>FakeMiddleButton</key>
 						<false/>
 						<key>FingerZ</key>
-						<integer>0</integer>
+						<integer>47</integer>
 						<key>HWResetOnStart</key>
-						<true/>
-						<key>MaxTapTime</key>
-						<integer>100000000</integer>
-						<key>PalmNoAction When Typing</key>
 						<true/>
 						<key>Resolution</key>
 						<integer>3200</integer>
 						<key>ScrollResolution</key>
 						<integer>800</integer>
-						<key>SmoothInput</key>
-						<true/>
 						<key>Thinkpad</key>
-						<true/>
-						<key>UnsmoothInput</key>
 						<true/>
 					</dict>
 					<key>X1CG3</key>
@@ -390,7 +492,7 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>as.acidanthera.voodoo.driver.PS2Controller</key>
-		<string>2.0.4</string>
+		<string>2.2.7</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>1.0.0b1</string>
 		<key>com.apple.kpi.iokit</key>
