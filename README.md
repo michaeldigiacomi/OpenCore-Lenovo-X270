@@ -10,7 +10,7 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - <b>Model</b>: Thinkpad X270
 - <b>CPU</b>: Intel(R) Core(TM) i5-6300U CPU @ 2.50GHz
 - <b>GPU</b>: Intel HD Graphics 520
-- <b>RAM</b>: 8 GB 24133MHz DDR4
+- <b>RAM</b>: 8 GB 2133MHz DDR4
 - <b>Screen</b>: 12,4" (1366x768)
 - <b>Wi-Fi</b>: AC-8260
 - <b>Camera</b>: 720p
