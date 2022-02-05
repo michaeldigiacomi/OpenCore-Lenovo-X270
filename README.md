@@ -1,10 +1,11 @@
-# Lenovo-X270-Hackintosh-BigSur-OpenCore-0.6.3
+# Lenovo-X270-Hackintosh-Monterey-OpenCore-0.7.6
 This repo contains the files and scripts to install macOS on the Lenovo X270 family
 
 ![X270](Images/screen.png)
 
 # Update History
-- [x] macOS 12
+- [x] macOS 12.1
+- [x] macOS 12.2
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
