@@ -15,7 +15,7 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - <b>Screen</b>: 12,4" (1366x768)
 - <b>Wi-Fi</b>: AC-8260
 - <b>Camera</b>: 720p
-- <b>Battery</b>: 6-cell 
+- <b>Battery</b>: 3-cell with inside battery 
 
 # Bios settings
 
