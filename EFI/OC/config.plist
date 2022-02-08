@@ -8,11 +8,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>DSDT.aml</string>
+				<string>Do not use DSDT's at the same time</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>DSDT for one battery.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>if you have two batteries enable this and disable other DSDT</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>DSDT for two batteries.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
