@@ -49,6 +49,8 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - [x] iMessage, FaceTime, App Store, iTunes Store (with valid smbios)
 - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
 - [x] SD Card Reader (v2.2 works but still a bit unstable)
+- [x] Sleep / Wake (lid sleep and lid wake) (works for me you can try for yourself)
 
 # What's not working ⚠️
-- [x] Sleep / Wake (lid sleep and lid wake)
+- [x] Everything looks perfect for now 
+
