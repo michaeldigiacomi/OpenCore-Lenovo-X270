@@ -1,5 +1,6 @@
 # Lenovo-X270-Hackintosh-Monterey-OpenCore-0.7.6
-This repo contains the files and scripts to install macOS on the Lenovo X270 family
+This repo contains the files and scripts to install macOS on the Lenovo X270 20K5
+
 
 ![X270](Images/screen.png)
 
