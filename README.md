@@ -1,6 +1,6 @@
 # Lenovo-X270-Hackintosh-Monterey-OpenCore-0.7.6
 This repo contains the files and scripts to install macOS on the Lenovo X270 20K5
-
+You need to patch your systems own DSDT 
 
 ![X270](Images/screen.png)
 
@@ -54,4 +54,7 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 20K
 
 # What's not working ⚠️
 - [x] Everything looks perfect for now 
+
+
+
 
