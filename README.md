@@ -1,10 +1,12 @@
-# Lenovo-X270-Hackintosh-BigSur-OpenCore-0.6.3
-This repo contains the files and scripts to install macOS on the Lenovo X270 family
+# Lenovo-X270-Hackintosh-Monterey-OpenCore-0.7.6
+This repo contains the files and scripts to install macOS on the Lenovo X270 20K5
+You need to patch your systems own DSDT 
 
 ![X270](Images/screen.png)
 
 # Update History
-- [x] macOS 12
+- [x] macOS 12.1
+- [x] macOS 12.2
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
@@ -14,7 +16,7 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - <b>Screen</b>: 12,4" (1366x768)
 - <b>Wi-Fi</b>: AC-8260
 - <b>Camera</b>: 720p
-- <b>Battery</b>: 6-cell 
+- <b>Battery</b>: 3-cell with inside battery 
 
 # Bios settings
 
@@ -48,6 +50,11 @@ This repo contains the files and scripts to install macOS on the Lenovo X270 fam
 - [x] iMessage, FaceTime, App Store, iTunes Store (with valid smbios)
 - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
 - [x] SD Card Reader (v2.2 works but still a bit unstable)
+- [x] Sleep / Wake (lid sleep and lid wake) (works for me you can try for yourself)
 
 # What's not working ⚠️
-- [x] Sleep / Wake (lid sleep and lid wake)
+- [x] Everything looks perfect for now 
+
+
+
+
