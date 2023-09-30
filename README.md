@@ -1,3 +1,6 @@
+# No Longer maintaining the code as I don't have the laptop anymore. Try: https://github.com/nicktimur/Lenovo-X270-Hackintosh-OpenCore-Ventura
+
+
 # Lenovo-X270-Hackintosh-Monterey-OpenCore-0.9.2
 This repo contains the files and scripts to install macOS on the Lenovo X270 20K5
 You need to patch your systems own DSDT 
